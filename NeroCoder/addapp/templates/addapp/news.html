@@ -12,6 +12,7 @@
             <p class="description"> {{ new.short_description }} </p>
             <p class="date"> {{ new.pub_date }} </p>
             <p> {{ new.text }} </p>
+            <p> Прислал: <i>{{ new.author }}</i></p>
         </div>
     {% endfor %}
 {% endblock %}
