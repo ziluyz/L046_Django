@@ -24,3 +24,12 @@ main {
     background-color: #ffffff; /* Белый фон для основного содержимого */
     color: #00247d; /* Темно-синий текст */
 }
+
+.date {
+    color: #cf142b; /* Красный цвет для даты */
+    font-size: 80%;
+}
+
+.description {
+    font-style: italic;
+}
